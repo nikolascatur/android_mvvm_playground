@@ -1,0 +1,31 @@
+ext {
+    def activityVersion = '1.4.0'
+    def appCompatVersion = '1.4.1'
+    def constraintLayoutVersion = '2.1.3'
+    def lifecycleVersion = '2.4.1'
+    def materialVersion = '1.5.0'
+    def roomVersion = '2.4.1'
+
+    libraries = [
+             "androidx.appcompat:appcompat:$appCompatVersion",
+             "androidx.activity:activity-ktx:$activityVersion",
+             "androidx.room:room-ktx:$roomVersion",
+
+             "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion",
+             "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion",
+             "androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion",
+
+            // Kotlin components
+             "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version",
+            // UI
+             "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion",
+             "com.google.android.material:material:$materialVersion"
+    ]
+    librariesKapt = [
+            "androidx.room:room-compiler:$roomVersion"
+    ]
+
+    androidTestImplementation = [
+            "androidx.room:room-testing:$roomVersion"
+    ]
+}
