@@ -1,4 +1,4 @@
-package com.ruangguru.mvvmplaygroundarena.room
+package com.ruangguru.mvvmplaygroundarena.data.local.word
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

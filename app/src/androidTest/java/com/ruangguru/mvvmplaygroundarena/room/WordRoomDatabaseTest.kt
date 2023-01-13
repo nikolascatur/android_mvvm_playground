@@ -1,21 +1,20 @@
 package com.ruangguru.mvvmplaygroundarena.room
 
 import android.content.Context
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.Observer
-import androidx.lifecycle.asLiveData
 import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.SmallTest
 import app.cash.turbine.test
+import com.ruangguru.mvvmplaygroundarena.data.local.word.Word
+import com.ruangguru.mvvmplaygroundarena.data.local.word.WordDao
+import com.ruangguru.mvvmplaygroundarena.data.local.word.WordRoomDatabase
 import junit.framework.TestCase
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.runBlocking
 import org.junit.After
 import org.junit.Assert.*
 import org.junit.Before
-import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 

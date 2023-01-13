@@ -5,8 +5,8 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.ruangguru.mvvmplaygroundarena.data.local.WordRepository
-import com.ruangguru.mvvmplaygroundarena.room.Word
+import com.ruangguru.mvvmplaygroundarena.data.local.word.WordRepository
+import com.ruangguru.mvvmplaygroundarena.data.local.word.Word
 import kotlinx.coroutines.launch
 
 class WordViewModel(private val repository: WordRepository): ViewModel() {

@@ -1,8 +1,6 @@
-package com.ruangguru.mvvmplaygroundarena.data.local
+package com.ruangguru.mvvmplaygroundarena.data.local.word
 
 import androidx.annotation.WorkerThread
-import com.ruangguru.mvvmplaygroundarena.room.Word
-import com.ruangguru.mvvmplaygroundarena.room.WordDao
 import kotlinx.coroutines.flow.Flow
 
 class WordRepository(private val wordDao: WordDao) {

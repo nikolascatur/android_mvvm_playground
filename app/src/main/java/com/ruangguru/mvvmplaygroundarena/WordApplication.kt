@@ -1,8 +1,8 @@
 package com.ruangguru.mvvmplaygroundarena
 
 import android.app.Application
-import com.ruangguru.mvvmplaygroundarena.data.local.WordRepository
-import com.ruangguru.mvvmplaygroundarena.room.WordRoomDatabase
+import com.ruangguru.mvvmplaygroundarena.data.local.word.WordRepository
+import com.ruangguru.mvvmplaygroundarena.data.local.word.WordRoomDatabase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 

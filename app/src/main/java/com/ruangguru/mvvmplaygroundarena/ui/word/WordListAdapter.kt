@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.ruangguru.mvvmplaygroundarena.R
-import com.ruangguru.mvvmplaygroundarena.room.Word
+import com.ruangguru.mvvmplaygroundarena.data.local.word.Word
 
 class WordListAdapter : ListAdapter<Word, WordListAdapter.WordViewHolder>(WordsComparator()) {
 

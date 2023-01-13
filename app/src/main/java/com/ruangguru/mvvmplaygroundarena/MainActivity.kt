@@ -7,11 +7,10 @@ import android.util.Log
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.ruangguru.mvvmplaygroundarena.room.Word
+import com.ruangguru.mvvmplaygroundarena.data.local.word.Word
 import com.ruangguru.mvvmplaygroundarena.ui.new.NewWordActivity
 import com.ruangguru.mvvmplaygroundarena.ui.word.WordListAdapter
 import com.ruangguru.mvvmplaygroundarena.ui.word.WordViewModel
